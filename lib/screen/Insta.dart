@@ -230,7 +230,7 @@ Widget rasmpost() {
       Container(
         width: double.infinity,
         child: Image.network(
-          'https://loremflickr.com/320/2${ran.nextInt(99).toString()}/ocean//all',
+          'https://loremflickr.com/320/2${ran.nextInt(99).toString()}/oceans//all',
           fit: BoxFit.fitHeight,
         ),
       ),
