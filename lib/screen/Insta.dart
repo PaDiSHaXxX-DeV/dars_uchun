@@ -227,6 +227,7 @@ var ran = Random();
 Widget rasmpost() {
   return Column(
     children: [
+      SizedBox(),
       Container(
         width: double.infinity,
         child: Image.network(
